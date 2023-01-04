@@ -2,7 +2,7 @@ local username_true = {}
 local username = Client.GetUsername()
 username_true['vicx'] = true
 
-function sendtrue()
+(function()
     if username_true[username] == true then
         Print("WE ARE HERE")
       return true
@@ -10,4 +10,4 @@ function sendtrue()
       return false
         Print("WE ARE HERE XDDDD")
     end
-end
+end)()
