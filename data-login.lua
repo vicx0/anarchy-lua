@@ -9,5 +9,3 @@ function sendtrue()
       return false
     end
 end
-
-return sendtrue()
