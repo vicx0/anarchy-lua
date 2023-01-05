@@ -1,4 +1,4 @@
-(function()
+
     local username_true = {}
     local username = Client.GetUsername()
     username_true['vicx'] = true
@@ -9,4 +9,3 @@
       return false
         Print("WE ARE HERE XDDDD")
     end
-end)()
